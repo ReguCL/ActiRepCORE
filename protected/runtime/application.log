@@ -187,3 +187,35 @@ Stack trace:
 REQUEST_URI=/actirepcore/index.php/tbtipoentregable/create
 HTTP_REFERER=http://jlambert/actirepcore/index.php/tbtipoentregable/create
 ---
+2013/04/25 17:48:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact".' in C:\PHP Frameworks\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\PHP Frameworks\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('contact')
+#1 C:\PHP Frameworks\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ActiRepCORE\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ActiRepCORE/index.php/contact/
+---
+2013/04/25 17:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tb_usuario".' in C:\PHP Frameworks\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\PHP Frameworks\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tb_usuario')
+#1 C:\PHP Frameworks\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ActiRepCORE\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ActiRepCORE/index.php/tb_usuario/
+---
+2013/04/25 17:48:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tb_usuarios".' in C:\PHP Frameworks\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\PHP Frameworks\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tb_usuarios')
+#1 C:\PHP Frameworks\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ActiRepCORE\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ActiRepCORE/index.php/tb_usuarios/
+---
+2013/04/25 17:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tbusuarios".' in C:\PHP Frameworks\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\PHP Frameworks\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('tbusuarios')
+#1 C:\PHP Frameworks\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ActiRepCORE\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ActiRepCORE/index.php/tbusuarios/
+---
